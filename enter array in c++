@@ -1,0 +1,19 @@
+include <iostream>
+using namespace std;
+void enterarray(int, int);
+
+int main()
+{
+  int n = 5;
+  int a[n];
+  enterarray(n,a);
+  return main;
+}
+
+void enterarray(int n, int a[])
+{
+  for (int i = 0;i<n;i++)
+  {
+    cin >> a[i];
+  }
+}
