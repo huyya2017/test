@@ -1,16 +1,16 @@
-include <iostream>
+#include <iostream>
 using namespace std;
-void enterarray(int, int);
+void enterarray(int &n, int a[]);
 
 int main()
 {
   int n = 5;
   int a[n];
   enterarray(n,a);
-  return main;
+  return 0;
 }
 
-void enterarray(int n, int a[])
+void enterarray(int &n, int a[])
 {
   for (int i = 0;i<n;i++)
   {
